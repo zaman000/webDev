@@ -1,0 +1,99 @@
+@font-face {
+    font-family: 'Ringbearer';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+000-5FF;
+    src: local('RINGM__.TTF'), url('//fonts/ringm.woff') format('woff');
+}
+@media screen and (max-width: 700px) {
+    body {
+        font-size: 12px;
+    }
+}
+
+body {
+    color: #DCD7C9;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+/* headings */
+h1, h2, h3{
+    font-family: Ringbearer;
+}
+h1 {
+    font-size: 4em;
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 3em;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 1.5em;
+}
+
+/* navbar */
+.navbar {
+    padding-bottom: 3em;
+}
+
+.navbar-brand {
+    font-family: Ringbearer;
+}
+
+.nav-item {
+    padding: 0 20px !important;
+}
+
+.bg-grey{
+    background: #2C3639;
+}
+
+#cta, #title, #testimonials {
+    background: #2C3639;
+}
+
+#footer, #pricing, #features {
+    background: #3F4E4F;
+}
+
+#ring {
+    margin-left: 10%;
+    transform: rotate(-45deg);
+}
+
+.container-fluid{
+    padding: 7% 15%;
+}
+
+/* features */
+
+.icons {
+    font-size: 5em;
+    margin: 8% 0 4%;
+    color: #fdbf15;
+}
+
+.icons:hover {
+    color: #e8aa3b;
+}
+
+/* testimonials */
+
+#testimonials{
+    height: 20em;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+}
+
+.social-media{
+    color: #DCD7C9;
+}

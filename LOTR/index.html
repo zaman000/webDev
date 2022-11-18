@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ringmaker</title>
+    <link rel="preload" as="font" href="fonts/ringm.woff" type="font/woff" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js"
+            integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk"
+            crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://kit.fontawesome.com/de33fbad5c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<section id="title">
+    <div class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-grey fixed-top pb-0">
+            <div class="container-fluid py-0">
+            <a class="navbar-brand" href="#title">Ringmaker</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-item nav-link" href="#features">The Ring</a>
+                    <a class="nav-item nav-link" href="#testimonials">The Power</a>
+                    <a class="nav-item nav-link" href="#pricing">The Smith</a>
+                </div>
+            </div>
+            </div>
+        </nav>
+
+
+        <!-- Title -->
+        <div class="row">
+            <div class="col-lg-6">
+                <h1>Buy One ring<br>to rule them all!</h1>
+                <button type="button" class="w-auto btn btn-dark btn-lg"><i class="fa-solid fa-cart-shopping"></i> Buy now</button>
+                <button type="button" class="w-auto btn btn-outline-warning btn-lg">Try out</button>
+            </div>
+            <div class="col-lg-6">
+                <img src="images/One_Ring.png" alt="one-ring" width="350" id="ring">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Features -->
+
+<section id="features">
+    <div class="container-fluid">
+        <div class="row text-center">
+            <div class="col-lg-4">
+                <i class="fa-solid fa-eye icons"></i>
+                <h3>Proofed by<br>Sauron.</h3>
+                <p>The Dark Lord himself admitted it's worth.</p>
+            </div>
+            <div class="col-lg-4">
+                <i class="fa-solid fa-hat-wizard icons"></i>
+                <h3>Feared by<br>Gandalf the Grey.</h3>
+                <p>Even a great magician is powerless against the Ring.</p>
+            </div>
+            <div class="col-lg-4">
+                <i class="fa-solid fa-hammer icons"></i>
+                <h3>Crafted by<br>Celebrimbor.</h3>
+                <p>The mightiest smith of his time.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Testimonials -->
+
+<section id="testimonials" class="text-center">
+    <div class="container-fluid h-100">
+        <div id="testimonialsCarousel" class="carousel slide h-100" data-bs-ride="carousel">
+            <div class="carousel-inner w-75 mx-auto">
+                <div class="carousel-item active">
+                    <h3>This is the Master-ring, the One Ring to rule them all. This is the One Ring that he lost many
+                        ages ago, to the great weakening of his power. He greatly desires it — but he must not get
+                        it.</h3>
+                    <img class="testimonial-image" src="images/Gandalf_the_Grey.webp" alt="gandalf-profile">
+                    <em>Gandalf the Grey, Middle-earth</em>
+                </div>
+                <div class="carousel-item">
+                    <h3 class="testimonial-text">One Ring to rule them all, One Ring to find them, One Ring to bring
+                        them all and in the darkness bind them.</h3>
+                    <img class="testimonial-image" src="images/celebrimbor.webp" alt="celebrimbor-profile">
+                    <em>Celebrimbor, Verse on the Ring</em>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialsCarousel"
+                    data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialsCarousel"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Pricing -->
+
+<section id="pricing">
+    <div class="container-fluid text-center">
+            <h2>A Ring for One who rules them all.</h2>
+            <p>There is only one who can possess it.<br>Only the Ring decides who is worth wearing it.<br>If you aren't
+                worthy,
+                the Ring will teleport itself back to Mordor.</p>
+        <div class="row">
+            <div class="col-12 w-auto mx-auto">
+                <div class="card mb-4 rounded-3 border-warning bg-transparent text-warning">
+                    <div class="card-header">
+                        <h3 class="my-0 fw-normal">The Ring</h3>
+                    </div>
+                    <div class="card-body">
+                        <h4>It will cost</h4>
+                        <h1 class="card-title pricing-card-title">Your Soul<br></h1>
+                        <ul class="list-unstyled mt-3 mb-4">
+                            <li>Become the mightiest of Middle-earth</li>
+                            <li>Get unlimited Power</li>
+                            <li>Be Lord of the Ring</li>
+                        </ul>
+                        <button type="button" class="w-auto btn btn-lg btn-outline-light">Buy now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- Call to Action -->
+
+<section id="cta">
+    <div class="container-fluid text-center">
+        <h2>Buy the Ring today</h2>
+        <h2>and just pay half the price.</h2>
+        <button type="button" class="w-auto btn btn-dark btn-lg"><i class="fa-solid fa-cart-shopping"></i> Buy now
+        </button>
+        <button type="button" class="w-auto btn btn-outline-warning btn-lg">Try out</button>
+    </div>
+
+</section>
+
+
+<!-- Footer -->
+
+<footer id="footer" class="text-center p-3">
+    <a target="_blank" href="https://www.facebook.com"><i class="mx-1 social-media fa-brands fa-facebook-f"></i></a>
+    <a target="_blank" href="https://www.twitter.com"><i class="mx-1 social-media fa-brands fa-twitter"></i></a>
+    <a target="_blank" href="https://www.instagram.com"><i class="mx-1 social-media fa-brands fa-instagram"></i></a>
+    <p>© Copyright 2022 Ringmaker</p>
+
+</footer>
+
+
+</body>
+
+</html>
